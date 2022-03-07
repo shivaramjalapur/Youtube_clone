@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/1384/1384060.png">
+    
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+    
+    <!-- Material Icons -->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+     <!-- CSS File -->
+     <link rel="stylesheet" href="style.css" />
+    <title>Youtube Clone</title>
+</head>
+<body>
+
+
+    <div id="navBar">
+        
+        <div id="logo">
+            <i class="fas fa-bars"></i>
+            <img src="https://cdn.mos.cms.futurecdn.net/8gzcr6RpGStvZFA2qRt4v6-1200-80.jpg" alt="">
+        </div>
+        
+        <div id="center">
+            
+            <div id="search">
+                <input type="text" id="video" placeholder="Search for videos">
+                <span onclick="searchVideos()">
+                    <i class="fas fa-search "></i>
+                </span>
+            </div>
+
+        </div>
+       
+        <div id="end">
+        <i class="fas fa-microphone"></i>
+        <i class="fas fa-video"></i>
+        <i class="fas fa-th"></i>
+        <i class="fas fa-bell"></i>
+        <i class="fas fa-user-circle"></i>
+        </div>
+
+    </div>
+<!--Side bar Main Section-->
+      <main>
+          <div class="side-bar">
+            <div class="nav">
+                <a class="nav-link active">
+                   <i class="material-icons">home</i>
+                   <span>Home</span>
+                </a>
+                <a class="nav-link">
+                   <i class="material-icons">local_fire_department</i>
+                   <span>Trending</span>
+                </a>
+                <a class="nav-link">
+                   <i class="material-icons">subscriptions</i>
+                   <span>Subscriptions</span>
+                </a>
+              </div>
+              <hr>
+
+              <!-- <div class="nav">
+     hr -->
+    <a class="nav-link">
+        <i class="material-icons">library_add_check</i>
+        <span>Library</span>
+     </a>
+     <a class="nav-link">
+        <i class="material-icons">history</i>
+        <span>History</span>
+     </a>
+     <a class="nav-link">
+        <i class="material-icons">play_arrow</i>
+        <span>Your Videos</span>
+     </a>
+     <a class="nav-link">
+        <i class="material-icons">watch_later</i>
+        <span>Watch Later</span>
+     </a>
+     <a class="nav-link">
+        <i class="material-icons">thumb_up</i>
+        <span>Liked Videos</span>
+     </a>
+          </div>
+
+
+
+          <div id="videodiv">
+            
+
+            </div>
+         
+      </main>
+  <!-- Main Body Ends -->
+
+
+  <script src="script.js"></script>
+</body>
+</html>
